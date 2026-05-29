@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <style>
+        
+        body{
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .main{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 0;   
+        }
+        .menu{
+            display: flex;
+            gap: 20px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 50px;
+        }
+        p{
+            text-align: center;
+            margin-top: 30px;
+        }
+        h2{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .container{
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 35px;
+
+        }
+        .box{
+            padding: 20px;
+            border: 1px solid black;
+            width: 150px;
+            text-align: center;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            margin: 20px;
+            }
+         .item{
+                display: flex;
+                background-color: rgb(255, 151, 82);
+                justify-content: center;
+                align-items: center;
+                height: 80px;
+        }
+        .area{
+            justify-content: center;
+            text-align: center;
+
+        }
+        .relative{
+            position: relative;
+            background-color: cornflowerblue;
+            color: black;
+            border: 1px solid black;
+            margin:20px;
+            padding: 15px;
+            height: 30px;
+            text-align: start;
+        }
+        .absolute{
+            position: relative;
+            height: 30px;
+        }
+        .positionabsolute{
+            position: absolute;
+            top: 10px;
+            
+            background-color: red;
+            color: white;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            background-color: purple;
+            padding: 10px;
+            color: white;
+            text-align: start;
+        }
+        .static{
+            background-color: white;
+            color: black;
+            margin:20px;
+            border: 1px solid black;
+            text-align: start;
+            height: 15px;
+            padding: 15px;
+        }
+        .fixed{
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            background-color: green;
+            color: white;
+            padding: 12px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 25;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="mylogo">My Website</div>
+        <div class="menu">
+            <div>Home</div>
+            <div>About</div>
+            <div>contact</div>
+
+        </div>
+    </div>
+    <h1>CSS Practice Assignment</h1>
+    <p>Learn Flexbox, Grid and Positioning</p>
+    <h2>Flexbox Example</h2>
+    <div class="container">
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">JAVA</div>
+    </div>
+    <h1>Grid layout Example </h1>
+    <div class="grid">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <h1>CSS Position Values</h1>
+    <div class="area">
+        <div class="relative">Position relative</div>
+        <div class="absolute">parent box
+            <div class="positionabsolute">Position:absolute</div>
+        </div>
+        <div class="sticky">Position:Sticky</div>
+        <div class="static">position:static(default)</div>
+        <div class="fixed">position:Fixed</div>
+    </div>
+    <div class="footer">Simple CSS Assignment</div>
+</body>
+</html>
