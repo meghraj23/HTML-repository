@@ -1,0 +1,68 @@
+body{
+    background:#f5f5f5;
+}
+
+.navbar{
+    background:#0d6efd;
+}
+
+.hero{
+    height:550px;
+    background:#888;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.page-banner{
+    background:#0d6efd;
+    color:white;
+    padding:100px 0;
+    text-align:center;
+}
+
+.section-padding{
+    padding:70px 0;
+}
+
+.card{
+    border-radius:8px;
+}
+
+.footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px 0;
+}
+
+.stats-card{
+    text-align:center;
+    padding:20px;
+}
+
+.stats-card h2{
+    color:#0d6efd;
+}
+
+.about-img{
+    width:100%;
+    border-radius:10px;
+}
+
+.contact-box,
+.form-box{
+    background:white;
+    padding:30px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.admission-box{
+    background:white;
+    padding:30px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
